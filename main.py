@@ -29,31 +29,31 @@ train_l=np.array(train_l)          #converting list to array
 ################################# getting training feature
 #inserting features of cardboard data for training
 for i in range(1,400):
-    path='E:/Machine Learning/Deep/trash classification/cardboard/cardboard%d.jpg'%(i)    
+    path='trash classification/cardboard/cardboard%d.jpg'%(i)    
     image = cv2.imread(path,0)    
     train_f.append(image)
 
 #inserting features of glass data for training
 for i in range(1,400):
-    path ='E:/Machine Learning/Deep/trash classification/glass/glass%d.jpg'%(i)
+    path ='/trash classification/glass/glass%d.jpg'%(i)
     image = cv2.imread(path,0)   
     train_f.append(image) 
 
 #inserting features of metal data for training
 for i in range(1,400):
-    path ='E:/Machine Learning/Deep/trash classification/metal/metal%d.jpg'%(i)
+    path ='trash classification/metal/metal%d.jpg'%(i)
     image = cv2.imread(path,0)   
     train_f.append(image) 
 
 #inserting features of paper data for training
 for i in range(1,400):
-    path ='E:/Machine Learning/Deep/trash classification/paper/paper%d.jpg'%(i)
+    path ='trash classification/paper/paper%d.jpg'%(i)
     image = cv2.imread(path,0)   
     train_f.append(image) 
 
 #inserting features of plastic data for training
 for i in range(1,400):
-    path ='E:/Machine Learning/Deep/trash classification/plastic/plastic%d.jpg'%(i)
+    path ='trash classification/plastic/plastic%d.jpg'%(i)
     image = cv2.imread(path,0)   
     train_f.append(image) 
 
@@ -63,31 +63,31 @@ train_f = np.array(train_f)           #converting list to array
 ############################ getting testing feature 
 #inserting features of cardboard data for testing
 for i in range(400,404):
-    path='E:/Machine Learning/Deep/trash classification/cardboard/cardboard%d.jpg'%(i)    
+    path='trash classification/cardboard/cardboard%d.jpg'%(i)    
     image = cv2.imread(path,0)    
     test_f.append(image)
 
 #inserting features of glass data for testing
 for i in range(400,502):
-    path ='E:/Machine Learning/Deep/trash classification/glass/glass%d.jpg'%(i)
+    path ='trash classification/glass/glass%d.jpg'%(i)
     image = cv2.imread(path,0)   
     test_f.append(image) 
 
 #inserting features of metal data for testing
 for i in range(400,411):
-    path ='E:/Machine Learning/Deep/trash classification/metal/metal%d.jpg'%(i)
+    path ='trash classification/metal/metal%d.jpg'%(i)
     image = cv2.imread(path,0)   
     test_f.append(image) 
 
 #inserting features of paper data for testing
 for i in range(400,595):
-    path ='E:/Machine Learning/Deep/trash classification/paper/paper%d.jpg'%(i)
+    path ='trash classification/paper/paper%d.jpg'%(i)
     image = cv2.imread(path,0)   
     test_f.append(image) 
 
 #inserting features of plastic data for testing
 for i in range(400,483):
-    path ='E:/Machine Learning/Deep/trash classification/plastic/plastic%d.jpg'%(i)
+    path ='trash classification/plastic/plastic%d.jpg'%(i)
     image = cv2.imread(path,0)   
     test_f.append(image) 
    
